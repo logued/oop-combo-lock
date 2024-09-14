@@ -19,6 +19,5 @@ public class App {
         //TODO - test to see if lock has opened
 
         //TODO- reset lock
-
     }
 }

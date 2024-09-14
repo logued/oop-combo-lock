@@ -3,10 +3,10 @@ package oop;
 /**
  * Combination Lock
  * The correct (opening) combination code must be set when constructing the ComboLock.
- * The correct sequence of digits making up the code must be entered in order
- * to open the ComboLock.
+ * The correct sequence of digits making up the code must be entered by turning the dial
+ * in order to unlock the ComboLock.
  * When entering a code, the first digit must be entered by
- * turning Right (clockwise), then Left, and finally Right.
+ * turning Right (clockwise), next Left, and finally Right.
  */
 
 public class ComboLock {
@@ -46,6 +46,6 @@ public class ComboLock {
 
     //TODO
     // Consider - can a user open this lock by entering the right sequence of
-    // codes but with some incorrect ones in between the correct ones.
+    // codes but with some incorrect ones in between the correct ones?
     // How might this be resolved?
 }
