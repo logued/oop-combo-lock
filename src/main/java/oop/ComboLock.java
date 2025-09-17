@@ -2,9 +2,9 @@ package oop;
 
 /**
  * Combination Lock
- * The correct (opening) combination code must be set when constructing the ComboLock.
- * The correct sequence of digits making up the code must be entered by turning the dial
- * in order to unlock the ComboLock.
+ * The correct combination code to open the lock must be set when constructing the ComboLock.
+ * To open the lock, the correct sequence of digits making up the code must be entered one by one,
+ * by turning the dial right and left alternatively.
  * When entering a code, the first digit must be entered by
  * turning Right (clockwise), next Left, and finally Right.
  */
